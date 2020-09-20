@@ -1,0 +1,316 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-light-black: #283136;
+  --basic-dark: #FFFFFF;
+  --basic-gray: #666666;
+  --basic-bluish-black: #444444;
+  --basic-smoky-white: #EEEEEE;
+  --basic-dark-gray: #888888;
+  --basic-light-red: #FB565A;
+  --basic-green: #00CA74;
+  --basic-yellow: #EFC849;
+  }
+
+  /* Global */
+
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.main-navigation {
+background color: var(--basic-smoky-white);
+text-transform: uppercase;
+font-size: 16px;
+color: var(--basic-black);
+line-height: 30px;
+font-weight: 500;
+}
+
+.site-navigation {
+list-style: none;
+}
+
+.container {
+background color: var(--basic-dark-gray);
+}
+
+.about_us {
+background color: var(--basic-smoky-white);
+}
+
+.slogan {
+font-size: 55px;
+line-height: 55px;
+color: var(--basic-black);
+font-weight: 500;
+}
+
+.slogan-small {
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-light-black);
+font-weight: normal;
+}
+
+.learn_more {
+background color: var(--basic-light-red);
+color: var(--basic-dark);
+font-size: 16px;
+line-height: 18px;
+border-radius: 3px;
+font-weight: 500;
+}
+
+.more_details {
+background color: var(--basic-dark-gray);
+}
+  
+
+.our_service {
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+font-weight: bold;
+color: var(--basic-black);
+}
+
+
+.order1 {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background color: var(--basic-light-red);
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+.order2 {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background color: var(--basic-green);
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+.order3 {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background color: var(--basic-yellow);
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+
+
+.slogan2 {
+font-weight: 500;
+font-size: 45px;
+line-height: 45px;
+color: var(--basic-black);
+}
+
+.slogan3 {
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-light-black);
+}
+
+.making_orders {
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-light-black);
+text-transform: uppercase;
+}
+
+.product_list {
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-light-black);
+}
+
+.accuracy {
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: var(--basic-black);
+text-transform: uppercase;
+}
+
+.percent {
+font-weight: bold;
+font-size: 45px;
+line-height: 64px;
+color: var(--basic-black);
+}
+
+.indicator {
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-light-black);
+}
+
+
+
+.my_footer {
+background color: var(--basic-dark-gray);
+}
+
+.nerds_english {
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+text-transform: uppercase;
+color: var(--basic-black);
+}
+
+.address {
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-gray);
+}
+
+.telephone {
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-gray);
+}
+
+.write_us {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background color: var(--basic-light-red);
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+.social_network {
+background color: var(--basic-dark-gray);
+}
+
+.friend_request {
+font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+color: var(--basic-dark);
+}
+
+.discount_offer {
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+color: var(--basic-bluish-black);
+}
+
+/* Catalog*/
+.all_product {
+background color: var(--basic-dark-gray);
+}
+
+.directory_name {
+font-weight: 500;
+font-size: 55px;
+line-height: 55px;
+color: var(--basic-dark);
+}
+
+.product-sedona {
+  background color: var(--basic-gray);
+}
+
+.sedona-name {
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+color: var(--basic-dark);
+text-transform: uppercase;
+}
+
+.sedona-desc {
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-gray);
+}
+
+ .sedona-buy {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+text-transform: uppercase;
+color: var(--basic-dark);
+background color: var(--basic-light-red);
+border-radius: 3px;
+ }
+
+.first_pegination {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background: rgba(0, 0, 0, 0.0001)
+border: 3px solid #DBDBDB;
+box-sizing: border-box;
+border-radius: 3px;
+}
+                
+.rest_pegination {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background color: var(--basic-smoky-white);
+border-radius: 3px;
+}
+
+.rest_pegination {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background color: var(--basic-smoky-white);
+border-radius: 3px;
+}
+
+.next_pegination {
+font-weight: 500;
+font-size: 16px;
+line-height: 18px;
+color: var(--basic-dark);
+background color: var(--basic-smoky-white);
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+
+
+
+
+
