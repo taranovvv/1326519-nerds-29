@@ -259,8 +259,16 @@ color: var(--basic-bluish-black);
 }
 
 /* Catalog*/
-.all_product {
-background color: var(--basic-dark-gray);
+
+
+.shop {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product_catalog {
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 .directory_name {
