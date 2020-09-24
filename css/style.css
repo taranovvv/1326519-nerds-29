@@ -37,7 +37,22 @@ li {
 list-style-type: none;
 }
 
+.page {
+  height: 100%;
+}
+
+.page-body {
+  width: 1440;
+  margin: 0 auto;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
 .main-navigation {
+display: grid;
+grid-template-columns: 1fr 4fr 1fr;
 background color: var(--basic-smoky-white);
 text-transform: uppercase;
 font-size: 16px;
@@ -46,11 +61,14 @@ line-height: 30px;
 font-weight: 500;
 }
 
+
 .container {
 background color: var(--basic-dark-gray);
 }
 
 .about_us {
+display: grid;
+grid-template-columns: 1fr 2fr;
 background color: var(--basic-smoky-white);
 }
 
@@ -78,6 +96,8 @@ font-weight: 500;
 }
 
 .more_details {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 background color: var(--basic-dark-gray);
 }
   
@@ -121,7 +141,10 @@ border-radius: 3px;
 text-transform: uppercase;
 }
 
-
+.more_details2 {
+display: grid;
+grid-template-columns: 2fr 1fr;
+}
 
 .slogan2 {
 font-weight: 500;
@@ -174,7 +197,10 @@ line-height: 18px;
 color: var(--basic-light-black);
 }
 
-
+.cooperation {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 .my_footer {
 background color: var(--basic-dark-gray);
@@ -213,6 +239,8 @@ text-transform: uppercase;
 }
 
 .social_network {
+display: grid;
+grid-template-columns: 1fr 2fr; 
 background color: var(--basic-dark-gray);
 }
 
