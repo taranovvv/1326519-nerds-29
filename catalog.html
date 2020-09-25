@@ -3,63 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <title>Интернет магазин "Nerds"</title>
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
-   <link href="css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page-body">
-<header class="main-header">
+ <header class="main-header">
   <nav class="main-navigation">
     <a class="main-header-logo">
-      <img src="img/logo.svg" href="index.html" width="160" height="65" alt="Логотип интернет магазина Nerds">
+      <img src="img/logo.svg" width="160" height="65" alt="Логотип интернет магазина Nerds">
     </a>
     <ul class="site-navigation">
-          <li class="link_detail"><a href="#">студия</a></li>
-          <li class="link_detail"><a href="#">клиенты</a></li>
-          <li class="link_detail"><a href="catalog.html">магазин</a></li>
-          <li class="link_detail"><a href="#">контакты</a></li>
+       <li class="link_detail"><a href="#">студия</a></li>
+       <li class="link_detail"><a href="#">клиенты</a></li>
+       <li class="link_detail"><a href="catalog.html">магазин</a></li>
+       <li class="link_detail"><a href="#">контакты</a></li>
     </ul>
     <a class="link_detail_basket" href="#">корзина</a>        
   </nav>
 </header>
 <main class="all_product">
-    <h1 class="directory_name">Магазин готовых шаблонов</h1> 
-   <div class="shop">
-  <section class="product_filter">
-    <h2>Фильтр товаров</h2>
+  <h1 class="directory_name">Магазин готовых шаблонов</h1> 
+  <div class="shop">
+   <section class="product_filter">
+     <h2>Фильтр товаров</h2>
    <!-- Здесь будет форма фильтра -->
-   <button type="button">показать</button>
- </section>
+     <button type="button">показать</button>
+   </section>
    <section class="product_catalog1">
     <!--<h2>Список продуктов компании</h2>-->
     <ul>
       <li>
         <a href="#">
-          <p class="product-sedona">
-            <h3 class="sedona-name">SEDONA</h3>
-            <p class="sedona-desc">Информационный сайт<br>для туристов</p>
-            <button class="sedona-buy" type="button">9900</button>
+          <div class="product-sedona">
             <img src="img/img-sedona1.jpg" width="360" height="576" alt="SEDONA-информационный сайт для туристов">
-          </p>
+            <div class="sedona">
+              <h3 class="sedona-name">SEDONA</h3>
+              <p class="sedona-desc">Информационный сайт<br>для туристов</p>
+              <button class="sedona-buy" type="button">9900</button>
+             <div> 
+           </div>
         </a>
        </li>
        <li>
         <a href="#">
-          <p class="product">
+          <div class="product">
             <img src="img/img-barbershop1.jpg" width="364" height="582" alt="Барбершоп «Бородинский">
-          </p>
+          </div>
         </a>
        </li>
        <li>
-        <li>
         <a href="#">
-          <p class="product">
+          <div class="product">
             <img src="img/img-aplus.jpg" width="364" height="582" alt="Сайт обучения с практикой">
-          </p>
+          </div>
         </a>
        </li>
     </ul>
-    <section>
+    <section class="pegination">
      <ul>
       <li class="first_pegination">
         <a>1</a>
@@ -74,55 +75,57 @@
         <a href="#">Следующая</a>
       </li>
     </ul>
-  </section>
+    </section>
    </section>
 
-    <section class="product_catalog2">
+   <section class="product_catalog2">
      <ul>
       <li>
         <a href="#">
-          <p class="product">
+          <div class="product">
             <img src="img/img-pink1.jpg" width="360" height="576" alt="PINK-приложение для поднятия настроения">
-          </p>
+          </div>
         </a>
-       </li>
-       <li>
+      </li>
+      <li>
         <a href="#">
-          <p class="product">
+          <div class="product">
             <img src="img/img-mishka1.jpg" width="362" height="580" alt="MISHKA-магазин поделок ручной работы">
-          </p>
+          </div>
         </a>
        </li>
        <li>
         <a href="#">
-          <p class="product">
+          <div class="product">
             <img src="img/img-kvast1.jpg" width="362" height="580" alt="Крафтовый квас">
-          </p>
+          </div>
         </a>
        </li>
-     </ul>
+      </ul>
      </section>
-    </main>
+</main>
 <footer class="my_footer">
-   <section class="contacts">
+  <section class="contacts">
     <!--<h2>Наши контакты</h2>-->
-     <!--Здесь будет карта-->
+    <div class="Card">
+       <img src="img/map1.png" width="1440" height="416" alt="Как к нам проехать">
+    </div>
      <p class="nerds_english">
-    nёrds design studio
+        nёrds design studio
      </p>
      <p class="address">
-    191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  
-     </p>
-     <p class="telephone">
-    тел. +7 (812) 275-75-75
-    </p>
-    <p>
-     <a class="write_us" href="#">напишите нам</a>
-    </p>
-    </section>
-    <section class="social_network">
-   <div>
-    <ul> 
+        191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8  
+      </p>
+      <p class="telephone">
+        тел. +7 (812) 275-75-75
+      </p>
+      <p>
+        <a class="write_us" href="#">напишите нам</a>
+      </p>
+   </section>
+   <section class="social_network">
+    <div>
+     <ul> 
       <li class="our-friend">
         <a href="#">В контакте</a>
       </li>
@@ -132,14 +135,14 @@
       <li class="friend">
         <a href="#">Инстаграм</a>
       </li>
-    </ul>
-  </div>
-  <div>
+     </ul>
+    </div>
+   <div>
     <h2 class="friend_request">Давайте дружить, это выгодно!</h2>
     <p class="discount_offer">
-     Скидка 10% для друзей из социальных сетей
+       Скидка 10% для друзей из социальных сетей
     </p>
-  </div>
+   </div>
   </section>
 </footer>
 </body>
