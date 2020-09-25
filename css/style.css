@@ -1,6 +1,6 @@
 /* Variables */
 
-:root {
+root: {
   --basic-black: #000000;
   --basic-light-black: #283136;
   --basic-dark: #FFFFFF;
@@ -17,7 +17,7 @@
 
 body {
   min-width: 1440px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: 'Roboto', sans-serif;
   background-position: top center;
@@ -64,7 +64,10 @@ font-weight: 500;
 
 .container {
 background color: var(--basic-dark-gray);
+width: 1440;
+margin: 0 auto;
 }
+
 
 .about_us {
 display: grid;
@@ -264,11 +267,6 @@ color: var(--basic-bluish-black);
 .shop {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-}
-
-.product_catalog {
-display: grid;
-grid-template-columns: 1fr 1fr;
 }
 
 .directory_name {
