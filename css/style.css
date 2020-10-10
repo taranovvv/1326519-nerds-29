@@ -204,7 +204,7 @@ margin-right: 100px;
 display: grid;
 grid-template-columns: 2fr 1fr;
 width: 1160px;
-
+margin-bottom: 73px;
 }
 
 .slogan2 {
@@ -212,6 +212,8 @@ font-weight: 500;
 font-size: 45px;
 line-height: 45px;
 color: var(--basic-black);
+margin-bottom: 32px;
+
 }
 
 .slogan3 {
@@ -219,6 +221,7 @@ font-weight: normal;
 font-size: 16px;
 line-height: 24px;
 color: var(--basic-light-black);
+margin-bottom: 23px;
 }
 
 .making_orders {
@@ -229,6 +232,13 @@ color: var(--basic-light-black);
 text-transform: uppercase;
 }
 
+.skills {
+width: 399px;
+height: 120px; 
+}
+
+
+
 .product_list {
 font-weight: normal;
 font-size: 16px;
@@ -236,12 +246,23 @@ line-height: 24px;
 color: var(--basic-light-black);
 }
 
+.product_list1 {
+margin-bottom: 22px;
+}
+
+.product_list2 {
+margin-bottom: 22px;
+}
+
+
 .accuracy {
 font-weight: bold;
 font-size: 16px;
 line-height: 24px;
 color: var(--basic-black);
 text-transform: uppercase;
+margin-bottom: 31px;
+margin-top: 37px;
 }
 
 .percent {
@@ -249,6 +270,7 @@ font-weight: bold;
 font-size: 45px;
 line-height: 64px;
 color: var(--basic-black);
+margin-bottom: 11px;
 }
 
 .indicator {
@@ -261,11 +283,18 @@ color: var(--basic-light-black);
 .cooperation {
 display: flex;
 width: 1160px;
+margin-bottom: 80px;
 }
 
 .my_footer {
 background color: var(--basic-dark-gray);
 }
+.contacts1 {
+background-image: url(imges/map1.png);
+width: 319px;
+height: 308px;
+}
+
 .card {
 margin: 0 auto;
 }
