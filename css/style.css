@@ -1,4 +1,4 @@
-/* Variables */
+ /* Variables */
 
 root: {
   --basic-black: #000000;
@@ -59,11 +59,14 @@ list-style-type: none;
   overflow: hidden;
 }
 
+.main-header {
+ margin-right: 143px;
+ margin-left: 140px; 
+}
 
 .main-navigation {
 display: flex;
-flex-direction: row;
-width: 1160px;
+width: 1120px;
 background color: var(--basic-smoky-white);
 text-transform: uppercase;
 font-size: 16px;
@@ -73,6 +76,8 @@ font-weight: 500;
 }
 
 .main-header-logo {
+display: flex;
+justify-content: flex-start;
 margin-top: 49px;
 }
 
@@ -88,7 +93,7 @@ margin-top: 75px;
 }
 
 .site-navigation {
-width: 1160px;
+width: 1000px;
 min-height: 30px;
 display: flex;  
 justify-content: center;
@@ -110,7 +115,8 @@ margin-right: 45px;
 
 .container {
 background color: var(--basic-dark-gray)
-margin: 0 auto;
+margin-right: 143px;
+margin-left: 140px;
 }
 
 
@@ -150,6 +156,7 @@ font-weight: 500;
 
 .slider {
 margin-top: 9px;
+margin-left: : 
 }
 
 .more_details {
@@ -259,6 +266,10 @@ width: 1160px;
 .my_footer {
 background color: var(--basic-dark-gray);
 }
+.card {
+margin: 0 auto;
+}
+
 
 .nerds_english {
 font-weight: bold;
@@ -290,6 +301,11 @@ color: var(--basic-dark);
 background color: var(--basic-light-red);
 border-radius: 3px;
 text-transform: uppercase;
+}
+
+.on_friendship {
+margin-right: 143px;
+margin-left: 140px;
 }
 
 .social_network {
@@ -401,9 +417,6 @@ background color: var(--basic-smoky-white);
 border-radius: 3px;
 text-transform: uppercase;
 }
-
-
-
 
 
 
