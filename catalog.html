@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html class="page" lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -12,7 +11,7 @@
  <header class="main-header">
   <nav class="main-navigation">
     <a class="main-header-logo">
-      <img src="file:///C:/Users/User/Downloads/nerds-logo%20(2).svg" width="160" height="65" alt="Логотип интернет магазина Nerds">
+      <img src="file:///C:/Users/User/Downloads/nerds-logo%20(3).svg" width="160" height="65" alt="Логотип интернет магазина Nerds">
     </a>
     <ul class="site-navigation">
        <li class="link_detail1"><a href="#">студия</a></li>
@@ -20,18 +19,23 @@
        <li class="link_detail3"><a href="catalog.html">магазин</a></li>
        <li class="link_detail4"><a href="#">контакты</a></li>
     </ul>
-    <a class="link_detail_basket" href="#">корзина</a>        
-  </nav>
+    <div class="link_detail_basket">
+      <img class="basket" src="file:///C:/Users/User/Downloads/cart-icon.svg" width="15" height="15">
+      <a href="#">корзина</a> 
+    </div>
+  </nav>  
 </header>
 <main class="all_product">
-  <h1 class="directory_name">Магазин готовых шаблонов</h1> 
-  <div class="shop">
-   <section class="product_filter">
+  <section class="directory">
+    <h1 class="directory_name">Магазин готовых шаблонов</h1> 
+  </section>
+  <section class="shop">
+   <div class="product_filter">
      <h2>Фильтр товаров</h2>
    <!-- Здесь будет форма фильтра -->
      <button type="button">показать</button>
-   </section>
-   <section class="product_catalog1">
+   </div>
+   <div class="product_catalog1">
     <h2 class="visually-hidden">Список продуктов компании</h2>
     <ul>
       <li>
@@ -61,7 +65,7 @@
         </a>
        </li>
     </ul>
-    <section class="pegination">
+    <div class="pegination">
      <ul>
       <li class="first_pegination">
         <a>1</a>
@@ -76,10 +80,10 @@
         <a href="#">Следующая</a>
       </li>
     </ul>
-    </section>
-   </section>
+    </div>
+   </div>
 
-   <section class="product_catalog2">
+   <div class="product_catalog2">
      <ul>
       <li>
         <a href="#">
@@ -103,7 +107,8 @@
         </a>
        </li>
       </ul>
-     </section>
+     </div>
+   </section>
 </main>
 <footer class="my_footer">
   <section class="contacts">
@@ -143,7 +148,7 @@
     <p class="discount_offer">
        Скидка 10% для друзей из социальных сетей
     </p>
-   </div>
+   </section>
   </section>
 </footer>
 </body>
